@@ -1,6 +1,6 @@
 # BVLibs
 
-[![CI](https://github.com/BradDevicesOfficial/BVLibs/actions/workflows/ci.yml/badge.svg)](https://github.com/BradDevicesOfficial/BVLibs/actions/workflows/ci.yml)
+[![CI](https://github.com/Brad-Devices/BVLibs/actions/workflows/ci.yml/badge.svg)](https://github.com/Brad-Devices/BVLibs/actions/workflows/ci.yml)
 
 <p align="center">
   <img alt="C" src="https://img.shields.io/badge/C-8A6D1F?style=for-the-badge">&nbsp;
@@ -28,7 +28,7 @@ DESIGNED  production silicon core         — BradVector ISA + reference RTL
 VISION    real hardware interconnects     — BradFusion fabric (reference model)
 ```
 
-The included kernels are written against the [BradVector ISA](https://github.com/BradDevicesOfficial/BradVector)
+The included kernels are written against the [BradVector ISA](https://github.com/Brad-Devices/BradVector)
 and the platform's reference runtime executes them on a 32-lane warp. This
 repository keeps the library boundary public; the proprietary toolchain
 (assembler + warp simulator) ships with the BradDevices software platform and
@@ -78,10 +78,10 @@ tests/      shared test suite
 
 ## How it relates
 
-- [brad-devices](https://github.com/BradDevicesOfficial/brad-devices) — the brand site; its
+- [brad-devices](https://github.com/Brad-Devices/brad-devices) — the brand site; its
   in-browser demo runs these sources compiled to WebAssembly.
-- [BradISA](https://github.com/BradDevicesOfficial/BradISA) — the CPU ISA.
-- [BradVector](https://github.com/BradDevicesOfficial/BradVector) — the GPU/accelerator ISA,
+- [BradISA](https://github.com/Brad-Devices/BradISA) — the CPU ISA.
+- [BradVector](https://github.com/Brad-Devices/BradVector) — the GPU/accelerator ISA,
   its public assembler text, and reference RTL.
 
 ## License
